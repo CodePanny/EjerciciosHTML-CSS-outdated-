@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ES-es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesion 2 - Ejercicio 1</title>
+</head>
+<body>
+    <form id="formulario1" action="recibeform.html" 
+    method="post" style = "border: 1px black solid;margin:15x;padding:15px;background-color: purple";>
+    
+    <h2>Ejercicio 1 - Formulario</h2>
+
+    <fieldset>
+        <legend>Datos de contacto:</legend>
+
+        <div>
+            <input id="formulario1_nombre" name="nombre" pattern="[A-Za-z0-9]+" required type="text" value="" placeholder="Nombre" />
+            <br>
+            <input id="formulario1_apellidos" name="apellidos" pattern="[A-Za-z0-9]+" required type="text" value="" placeholder="Apellidos" />
+            <br>
+            <input id="formulario1_telefono" name="telefono" required type="tel" value="" placeholder="Número de teléfono" />
+            <br>
+            <input id="formulario1_email" name="email" type="email" required placeholder="e-mail" />
+            <br>
+            <input id="formulario1_direccion" name="direccion" type="text" required placeholder="Dirección" />
+            <br>
+            
+        </div>
+        <p></p>
+        <div>
+            <input type="submit" value="Enviar formulario"/>
+        </div>
+    </fieldset>
+
+    <h2>Ejercicio 1 - Tabla</h2>
+
+    <table style = "border: 1px black solid;margin:15x;padding:15px;background-color: purple"; cellpadding="15" cellspacing="5">
+        <tr>
+            <td rowspan="2">Ocupa 2</td>
+            <td>Ocupa 1</td>
+            <td>Ocupa 1</td>
+            <td>Ocupa 1</td>
+        </tr>
+        <tr>
+         
+          <td>Ocupa 1</td>
+          <td>Ocupa 1</td>
+          <td>Ocupa 1</td>
+        </tr>
+        <tr>
+          <td>Ocupa 1</td>
+          <td>Ocupa 1</td>
+          <td colspan="2">Ocupa 2</td>
+            
+        </tr>
+        <tr>
+            <td>Ocupa 1</td>
+            <td>Ocupa 1</td>
+            <td>Ocupa 1</td>
+            <td>Ocupa 1</td>
+        </tr>
+      </table>
+    
+    </form>
+</body>
+</html>
