@@ -1,0 +1,30 @@
+
+body {
+    background-color: rgba(127, 255, 212, 0.212);
+    font-family:'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgba(239, 24, 110, 0.853);
+    padding: 20px;
+    text-align: center;
+    border: 2px dotted black;
+}
+
+.div1{
+    margin-top: 40px;
+}
+
+p {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: justify;
+}
+
+.miparrafo {
+    color:blueviolet;
+    font-style: italic;
+}
